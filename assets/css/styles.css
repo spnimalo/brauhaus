@@ -1,6 +1,12 @@
 /*-------------
  	General
 -------------*/
+@font-face {
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Bold'), local('BebasNeueBold'), url('assets/font/bebasneue/bebasneuebold.woff2') format('woff2'), url('assets/font/bebasneue/bebasneuebold.woff') format('woff'), url('assets/font/bebasneue/bebasneuebold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
 
 *{
 	margin: 0;
