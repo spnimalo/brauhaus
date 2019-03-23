@@ -202,7 +202,7 @@ header nav li:last-child{
 	width: 100%;
 	height: 100%;
 	background-color: #242222;
-	opacity: 0.7; //затенение
+	opacity: 0.5; //затенение
 }
 
 .hero h1{
