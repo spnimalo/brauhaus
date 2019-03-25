@@ -3,7 +3,7 @@
 -------------*/
 @font-face {
     font-family: 'Bebas Neue';
-    src: local('Bebas Neue Bold'), local('BebasNeueBold'), url('assets/font/bebasneue/bebasneuebold.woff2') format('woff2'), url('assets/font/bebasneue/bebasneuebold.woff') format('woff'), url('assets/font/bebasneue/bebasneuebold.ttf') format('truetype');
+    src: local('Bebas Neue Bold'), local('BebasNeueBold'), url('assets/font/bebasneue/bebasneuebold.woff2') format('woff2'), url('assets/font/bebasneue/bebasneuebold.woff') format ('woff'), url('assets/font/bebasneue/bebasneuebold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
@@ -124,6 +124,21 @@ header{
 	background-size: 90px; 
 	background-color: #242222;
 	text-align: center;
+
+}
+.bgimage img{
+  	width: 180px;
+}
+
+@media (max-width: 800px){
+	.bgimage{
+		height: 45px;
+		background-size: 45px; 
+
+	}
+	.bgimage img{
+  		width: 90px;
+	}
 }
 
 
